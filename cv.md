@@ -30,3 +30,13 @@ export function isPasswordValid(password) {
   return false;
 }
 ```
+
+## Education
+* **University**: Tyumen Industrial University, Water supply and sewage engineering
+* **Courses**:
+    * Academy STEP (Web Developer)
+    * FreeCodeCamp (at the beginning)
+
+## Languages
+* Russian - Native
+* English - B1
