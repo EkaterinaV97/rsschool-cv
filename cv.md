@@ -1,7 +1,7 @@
 # Ekaterina Verevkina
 
 ## Contacts
-* Location: Tymen, Russia
+* Location: Tyumen, Russia
 * Phone: +7-909-741-91-99
 * Email: katemars18@gmail.com
 * GitHub: [EkaterinaV97](https://github.com/EkaterinaV97)
