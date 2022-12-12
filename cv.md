@@ -18,4 +18,15 @@ I want to improve my knowledge in this area and take this course to get acquaint
 * Wordpress basics
 
 ## Code example
+Piece of code from password valide:
 
+```
+export function isPasswordValid(password) {
+  console.log(password)
+  let pass = password.trim();
+	if (pass.length >= 10) {
+    return true;
+  }
+  return false;
+}
+```
