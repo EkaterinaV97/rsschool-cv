@@ -1,3 +1,19 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  }  
+
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +21,40 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 700px;
     font-family: Arial, sans-serif;
+}
+
+.header-nav__item a {
+    text-decoration: none;
+    color: #414042;
+    position: relative;
+}
+
+.header-nav__item a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #555; 
+    transition: all 0.5s;
+}
+
+.header-nav__item a:hover::before {
+    width: 100%;
+}
+
+header {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header-nav__list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
 }
