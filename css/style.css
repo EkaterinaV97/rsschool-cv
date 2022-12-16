@@ -6,7 +6,7 @@
     src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
   }
 
-  @font-face {
+@font-face {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -17,12 +17,14 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
 .container {
     margin: 0 auto;
-    width: 700px;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    width: 900px;
+    box-sizing: border-box;
 }
 
 .header-nav__item a {
@@ -57,4 +59,46 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     list-style-type: none;
+}
+
+.main {
+    font-family: 'Roboto';
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-section_left__about h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #414042;
+}
+
+.main-section_left__about h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #414042;
+}
+
+.main-section_left__about img {
+    width: 160px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.img-center {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.main-section_left__about-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 10px 0 25px;
+    margin-top: 20px;
 }
