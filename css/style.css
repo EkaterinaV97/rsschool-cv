@@ -154,3 +154,8 @@ header {
 .main-section_left__contacts-info a:hover {
     text-decoration: underline;
 }
+
+.main-section_left__skills {
+    margin-top: 50px;
+}
+
