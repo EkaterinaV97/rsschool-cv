@@ -159,8 +159,12 @@ header {
     margin-top: 50px;
 }
 
+.main-section_right__education {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
 footer {
-    /* background-color: rgb(182, 153, 177); */
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 15px;
