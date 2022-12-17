@@ -68,6 +68,10 @@ header {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.main-section_left {
+    padding-left: 25px;
+}
+
 .main-section_left__about h1 {
     font-weight: 700;
     font-size: 30px;
@@ -95,10 +99,58 @@ header {
     margin-top: 35px;
 }
 
+.main-section_left__contacts {
+    margin-top: 25px;
+}
+
 .main-section_left__about-text {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
-    padding: 0 10px 0 25px;
     margin-top: 20px;
+}
+
+.main-section_left__contacts-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+.main-section_left__contacts-item img {
+    width: 25px;
+    height: 25px;
+}
+
+.main-section_left__contacts-item h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+}
+
+.left-line {
+    width: 375px;
+    height: 1px;
+    background-color: #414042;
+}
+
+.main-section_left__contacts-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section_left__contacts-info img {
+    width: 20px;
+    height: 20px;
+}
+
+.main-section_left__contacts-info a {
+    text-decoration: none;
+    color: #414042;
+}
+
+.main-section_left__contacts-info a:hover {
+    text-decoration: underline;
 }
