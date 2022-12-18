@@ -27,6 +27,8 @@ body {
     box-sizing: border-box;
 }
 
+/* Header style */
+
 .header-nav__item a {
     text-decoration: none;
     color: #414042;
@@ -68,6 +70,8 @@ header {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* Left column styles */
+
 .main-section_left {
     padding-left: 25px;
 }
@@ -89,9 +93,9 @@ header {
 }
 
 .main-section_left__about img {
-    width: 150px;
+    width: 130px;
     height: 160px;
-    border-radius: 50%;
+    box-shadow: 8px -8px 20px 0px rgba(0,0,0,0.2);
 }
 
 .img-center {
@@ -159,6 +163,8 @@ header {
     margin-top: 50px;
 }
 
+/* Right section styles */
+
 .main-section_right__education {
     margin-top: 20px;
     margin-bottom: 35px;
@@ -184,6 +190,8 @@ header {
 .main-section_right__code {
     margin-top: 35px;
 }
+
+/* Footer style */
 
 footer {
     font-family: 'Roboto';
@@ -227,4 +235,41 @@ footer {
     width: 100%;
     height: 1px;
     background-color: #414042;
+}
+
+@media screen and (max-width: 920px) {
+    .main {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1, 0fr);
+        justify-content: center;
+    }
+
+    .container {
+        margin: 0 auto;
+        padding: 0;
+        width: 700px;
+        box-sizing: border-box;
+    }
+    
+    .contacts-screen__920 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 170px;
+    }
+
+    .main-section_right {
+        padding-left: 25px;
+    }
+
+    .main-section_left__about {
+        width: 400px;
+    }
+
+    header {
+        width: 500px;
+        font-weight: 400;
+        font-size: 15px;
+    }
 }
