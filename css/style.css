@@ -89,8 +89,8 @@ header {
 }
 
 .main-section_left__about img {
-    width: 160px;
-    height: 140px;
+    width: 150px;
+    height: 160px;
     border-radius: 50%;
 }
 
@@ -162,6 +162,27 @@ header {
 .main-section_right__education {
     margin-top: 20px;
     margin-bottom: 35px;
+}
+
+.main-section_right__courses-info li {
+    margin-bottom: 10px;
+}
+
+.main-section_right__projects {
+    margin-top: 35px;
+}
+
+.main-section_right__projects-list a {
+    text-decoration: none;
+    color: #414042;
+}
+
+.main-section_right__projects-list li {
+    margin-bottom: 10px;
+}
+
+.main-section_right__code {
+    margin-top: 35px;
 }
 
 footer {
