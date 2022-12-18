@@ -163,6 +163,10 @@ header {
     margin-top: 50px;
 }
 
+.main-section_left__skills-info li {
+    margin-bottom: 10px;
+}
+
 /* Right section styles */
 
 .main-section_right__education {
@@ -189,6 +193,10 @@ header {
 
 .main-section_right__code {
     margin-top: 35px;
+}
+
+pre {
+    white-space: pre-line;
 }
 
 /* Footer style */
